@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NILE UNIVERSITY OF NIGERIA</title>
+	
+</head>
+
+<body background = "nile.png";  >
+	<form>
+		NAME:
+		<input type="text" placeholder="firstname" required="firstname">  <!--THE  REQUIred is needed because without it , if you dont fill in first name and/or last name, when u click submit it will tell u to go back an type in first or last name -->
+		<input type="text" placeholder="lastname" required="lastname"><br><br>
+		SCHOOL:<input type="text" placeholder="schoolname"><br><br>
+		STATE OF ORIGIN:
+		<select required="select">
+			<option>Kano</option>
+			<option>Kaduna</option>
+			<option>Abuja</option>
+			<option>Sokoto</option>
+			<option>Bauchi</option>
+			<option>Edo</option>
+		</select><br><br>
+		GENDER:
+		<input type="radio" name="gender" placeholder="male" checked> Male <!-- checked means when u view it in a browser the MALE dot will automatically look checked, if u remove the checked it wont show any of the 2 options(male/female) checked -->
+ 		<input type="radio" name="gender" placeholder="female"> Female<br><br>
+ 		PHONE:<input type="number" placeholder="+234" required="NAME" pattern="08156056958"><br><br> <!-- placeholder means whats in the box when u view it before adding in your own detials -->
+ 		EMAIL:<input type="EMAIL" placeholder="example@me.com" pattern="+@gmail.com" size="30"><br><br> <!-- the patern plus@gmail means that only gmail will be accepted .. but if u use plus@plus, then any kind of mail e.g @ymail, @mail etc ca n be accepted -->
+ 		JAMB: <br><br>
+ 		<input type="text" placeholder="subject"> <input type="number" placeholder="score"><br>
+ 		<input type="text" placeholder="subject"> <input type="number" placeholder="score"><br>
+ 		<input type="text" placeholder="subject"> <input type="number" placeholder="score"><br>
+ 		<input type="text" placeholder="subject"> <input type="number" placeholder="score"><br><br>
+ 		WAEC:<br><br>
+ 		<input type="text" placeholder="subject"> <input type="number" placeholder="score"><br>
+ 		<input type="text" placeholder="subject"> <input type="number" placeholder="score"><br>
+ 		<input type="text" placeholder="subject"> <input type="number" placeholder="score"><br>
+ 		<input type="text" placeholder="subject"> <input type="number" placeholder="score"><br>
+ 		<input type="text" placeholder="subject"> <input type="number" placeholder="score"><br>
+ 		<input type="text" placeholder="subject"> <input type="number" placeholder="score"><br>
+ 		<input type="text" placeholder="subject"> <input type="number" placeholder="score"><br>
+ 		<input type="text" placeholder="subject"> <input type="number" placeholder="score"><br>
+ 		<input type="text" placeholder="subject"> <input type="number" placeholder="score"><br><br>
+ 		FIRST CHOICE:
+ 		<select required="select">
+			<option>Computer Science</option>
+			<option>Law</option>
+			<option>Medicine</option>
+			<option>Computer Architechture</option>
+			<option>Bio-Chemistry</option>
+			<option>Biology</option>
+			<option>Engineering</option>
+		</select><br><br>
+		SECOND CHOICE:
+			<select required="select">
+			<option>Computer Science</option>
+			<option>Law</option>
+			<option>Medicine</option>
+			<option>Computer Architechture</option>
+			<option>Bio-Chemistry</option>
+			<option>Biology</option>
+			<option>Engineering</option>
+		</select><br><br>
+		<input type="submit" placeholder="Submit">
+</body>
+</html>
+</form>
